@@ -1,0 +1,109 @@
+/* RESPONSIVE ELEMENTS: Pois será o nosso header, o nosso main e o nosso footer */
+
+@media (max-width: 1024px) {
+    .container {
+        width: 850px;
+    }
+
+    body {
+        background-position: -140px;
+    }
+}
+
+@media (max-width: 935px) { 
+     body {
+        background-position: left top; 
+        background-color: $color-quartenaria; 
+                                     
+     }
+                            
+    .container {
+        width: 550px;
+    }
+
+    .row {
+        flex-direction: column; 
+    }
+
+    //Header
+    header {
+        //Nav
+        nav {
+        margin: 30px 0; 
+    }
+    //End nav
+}
+//End header
+
+    //Sobre-web-design
+    .sobre-web-design {
+         article {
+        width: 100%
+         }
+         //End article
+        }
+        //End sobre-web-design
+
+        //Footer
+        footer {
+        //.Row
+        .row {
+        flex-direction: row; 
+        justify-content: center;     
+        }
+        //End .row
+    }
+
+    //.Sobre-web-design
+    .sobre-web-design {
+        //Figcaption
+        figcaption {
+            //Img
+            img {
+        margin: 30px 0 0 0;
+        width: 100%; 
+    }
+    //End img
+}
+//End figcaption
+}
+//End .sobre-web-design
+}
+
+@media (max-width: 665px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) { 
+    .container {
+        width: 290px;
+    }
+
+    //Header
+    header {
+        //Nav
+        nav {
+        background: $color-branco;
+        width: 100%;
+        padding: 10px /*topo*/ 0/*lado*/ 20px; /*baixo*/
+        box-shadow: 0px /*horizontal*/ 10px /*vertical*/ 30px rgba(0, 0, 0, 0.15);
+
+       //UL
+        ul {
+            flex-direction: column;
+
+            //li
+            li {
+            margin: 10px 0;
+            }
+            //End li
+         }
+        //End ul
+    }
+    //End Nav
+    }
+    //End header
+}
+//End @media

@@ -1,0 +1,35 @@
+//Header
+header {
+
+    //Section
+    section{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    //End section
+
+    // NAV
+    nav {
+        // ul 
+        ul {
+            display: flex;
+            flex-direction: row; 
+            align-items: center;
+            //li
+            li {
+                //a
+                a {
+                    margin: 0 15px;
+                    color: $color-primaria;
+                }
+                //End a
+            }
+            //End li
+        }
+        //End ul
+    }
+    //End nav
+}
+//End nav
